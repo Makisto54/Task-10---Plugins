@@ -1,4 +1,4 @@
-#include "functions.h"
+#include "../headers/functions.h"
 
 int comparator(const int *i, const int *j)
 {

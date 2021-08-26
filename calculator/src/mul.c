@@ -1,6 +1,6 @@
-#include "functions.h"
+#include "../headers/functions.h"
 
-void add()
+void mul()
 {
     int a = 0;
     int b = 0;
@@ -10,5 +10,5 @@ void add()
     printf("Input second number - ");
     scanf("%d", &b);
 
-    printf("Result - %d\n", a + b);   
+    printf("Result - %d\n", a * b); 
 }
